@@ -1,12 +1,17 @@
-function calculator(a, b, sign) {
-    if (sign == "$") {
-        console.log("unknown value")
-    } else if (typeof (a) == "string" || typeof (b) == "string") {
-        console.log("unknown value")
-    } else {
-        let res = eval(a + sign + b)
-        console.log(res)
+function calculator(a,b,sign){
+	if ((typeof a === "number") && (typeof b === "number")) {
+    switch (sign) {
+    case "+":
+      return a + b;
+    case "-":
+      return a - b;
+    case "*":
+      return a * b;
+    case "/":
+      return a / b;
     }
+  }
+  return "unknown value";
 }
 
 calculator(1, 2, "+")//,               3);
