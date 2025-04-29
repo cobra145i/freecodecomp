@@ -1,5 +1,5 @@
 function square(n) {
-    let res = n;
+    let res = n*n;
    console.log(res)
   }
 
