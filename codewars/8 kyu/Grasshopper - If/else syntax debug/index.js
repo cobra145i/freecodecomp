@@ -8,4 +8,4 @@ function checkAlive(health) {
   }
 
   checkAlive(5)//, true)
-  checkAlive(0)//,/ false)
+  checkAlive(0)//,/ false
