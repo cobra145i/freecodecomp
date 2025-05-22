@@ -8,7 +8,7 @@ function whatday(num) {
     } else if (num == 4) {
         return "Wednesday"
     } else if (num == 5) {
-        return "Wednesday"
+        return 'Thursday'
     } else if (num == 6) {
         return "Friday"
     } else if (num == 7) {
